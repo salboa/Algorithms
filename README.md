@@ -10,3 +10,7 @@ by Tim Roughgarden.
    - Karatsuba's integer multiplication  -> developed in C++ (Karatsuba.cpp/h) and
 					  Python (Karatsuba.py)
    - Third Grade integer multiplication  -> developed in Python (ThirdGrade.py)
+   - Merge Sort  	                 -> developed in C++ (MergeSort.cpp/h) and
+     	   				    Python (MergeSort.py)
+   - Counting Inversion 		 -> developed in C++ (CountInversion.cpp/h) and
+     	      				    Python (CountInversion.py)

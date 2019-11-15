@@ -2,7 +2,7 @@
 
 int main( int argc, char* argv[] ){
 
-  string Num1  = "";
+  string Num1 = "";
   string Num2 = "";
   bool printHelp = false;
   for(int i = 1; i < argc; i++){ 
@@ -46,7 +46,7 @@ int main( int argc, char* argv[] ){
     cin >> Num2;
   }
   
-  cout << " Numbers  to be multiplied are: \n"
+  cout << " Numbers to be multiplied are: \n"
        << "  n1 = " << Num1 << " \n"
        << "  n2 = " << Num2 << endl;
 
