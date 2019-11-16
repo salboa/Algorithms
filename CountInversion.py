@@ -8,8 +8,6 @@ parser.add_argument('--inFile', type=str           , default=None , help='specif
 parser.add_argument('--debug' , action='store_true', default=False, help='enable debug mode'          )
 args = parser.parse_args()
 
-count = 0
-
 def main():
 
     filename = args.inFile
