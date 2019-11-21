@@ -14,3 +14,5 @@ by Tim Roughgarden.
      	   				    Python (MergeSort.py)
    - Counting Inversion 		 -> developed in C++ (CountInversion.cpp/h) and
      	      				    Python (CountInversion.py)
+   - FastPower                           -> developed in Python (FastPower.py)
+   - QuikSort                            -> developed in Python (QuickSort.py)
