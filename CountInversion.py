@@ -8,6 +8,7 @@ parser.add_argument('--inFile', type=str           , default=None , help='specif
 parser.add_argument('--debug' , action='store_true', default=False, help='enable debug mode'          )
 args = parser.parse_args()
 
+
 def main():
 
     filename = args.inFile
@@ -33,6 +34,7 @@ def main():
     sorted, inversions = countingInversion(numlist)
     print( ' number of inversions = %s' %inversions )
 
+    
 def countingInversion(x):
 
     linv = 0
