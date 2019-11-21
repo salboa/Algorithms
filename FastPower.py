@@ -20,7 +20,6 @@ PSEUDOCODE FOR CALCULATING a^b where a and b are positive integers
 parser = argparse.ArgumentParser(description='Perform a^b fast algorithm'                    )
 parser.add_argument('--aVal'  , type=int           , default=None , help='specify a value'   )
 parser.add_argument('--bVal'  , type=int           , default=None , help='specify b value'   )
-parser.add_argument('--debug' , action='store_true', default=False, help='enable debug mode' )
 args = parser.parse_args()
 
 count = 0

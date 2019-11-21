@@ -8,7 +8,6 @@ parser.add_argument('--inFile', type=str           , default=None , help='specif
 parser.add_argument('--debug' , action='store_true', default=False, help='enable debug mode'  )
 args = parser.parse_args()
 
-count = 0
 
 def main():
 
@@ -34,6 +33,7 @@ def main():
     sorted = mergeSort(numlist)
     print(' DEBUG:: values in the sorted array are -> ', sorted)
 
+    
 def mergeSort(x):
 
     #define middle point of array
